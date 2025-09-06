@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - Online Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="lessons.html">Lessons</a>
+      <a href="quiz.html">Quizzes</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Lesson 1 Quiz</h2>
+    <p>What does HTML stand for?</p>
+    <button onclick="checkAnswer(this,'wrong')">Hyperlinks and Text Markup Language</button>
+    <button onclick="checkAnswer(this,'wrong')">Home Tool Markup Language</button>
+    <button onclick="checkAnswer(this,'correct')">HyperText Markup Language</button>
+    <p id="quizResult"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

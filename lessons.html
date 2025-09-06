@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lessons - Online Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Lessons</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="lessons.html">Lessons</a>
+      <a href="quiz.html">Quizzes</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Lesson 1 -->
+    <section class="lesson">
+      <h2>Lesson 1: Introduction to HTML</h2>
+      <iframe width="600" height="340"
+        src="https://www.youtube.com/embed/pQN-pnXPaVg"
+        title="HTML Introduction" frameborder="0" allowfullscreen>
+      </iframe>
+      <button data-lesson="1" onclick="completeLesson(1)">Mark as Completed</button>
+    </section>
+
+    <!-- Lesson 2 -->
+    <section class="lesson">
+      <h2>Lesson 2: CSS Basics</h2>
+      <iframe width="600" height="340"
+        src="https://www.youtube.com/embed/yfoY53QXEnI"
+        title="CSS Basics" frameborder="0" allowfullscreen>
+      </iframe>
+      <button data-lesson="2" onclick="completeLesson(2)">Mark as Completed</button>
+    </section>
+
+    <!-- Lesson 3 -->
+    <section class="lesson">
+      <h2>Lesson 3: JavaScript Fundamentals</h2>
+      <iframe width="600" height="340"
+        src="https://www.youtube.com/embed/W6NZfCO5SIk"
+        title="JavaScript Fundamentals" frameborder="0" allowfullscreen>
+      </iframe>
+      <button data-lesson="3" onclick="completeLesson(3)">Mark as Completed</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
